@@ -1,0 +1,237 @@
+body
+{
+	background-color:#000;
+	margin: 0;
+}
+
+#container
+{
+	position: relative;	
+	width: 1010px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#numberSlider
+{
+	position: relative;
+	top: -140px;
+	left: 25px;
+	border: 0px solid #cc0000;
+}
+
+#imgContainer
+{
+	position: relative;
+	width: 1010px;
+	height: 424px;
+	overflow: hidden;	
+}
+
+#carImg
+{
+	position: absolute;	
+	width: 1010px;
+	height: 424px;
+	border: 0px solid #cc0000;
+	margin-left: auto;
+	margin-right:auto;
+	
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#pageHeader
+{
+	font-family: 'Pathway Gothic One', sans-serif;	
+	font-size: 60px;
+	color:#FFF;
+	float: right;
+}
+
+/* ==========
+YEAR NAV
+========== */
+#yearNav
+{
+	position: absolute;
+	top: 385px;
+	left: 0;
+	height: 30px;
+	width: 1040px;
+}
+
+.yearItem
+{
+	font-family: 'Pathway Gothic One', sans-serif;	
+	font-size: 18px;
+	color:#FFF;
+	float: left;
+	margin: 0 11px 0 0;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.yearItemActive
+{
+	cursor: pointer;
+	color:#F60;
+}
+
+
+.yearItem:hover
+{
+	cursor: pointer;
+}
+
+#disclaimer
+{
+	width: 1010px;
+	position: relative;	
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 12px;
+	left: 0px;
+	top: 0px;
+	border-top: 1px solid #252525;
+	padding-top: 10px;
+	color: #666;
+}
+
+/* ==========
+DIGITS
+========== */
+#digits
+{
+	position: absolute;	
+	left: 50px;
+	top: 315px;
+	width: 220px;
+	height:60px;
+	border: 0px solid #cc0000;
+	overflow:hidden;
+}
+
+#digit1, #digit2, #digit3, #digit4
+{
+	position:relative;	
+	left: 0px;
+	top:  -25px;
+	width: 100px;
+	height: 80px;
+	float: left;
+	overflow:hidden;	
+	background-image:url('http://baodang.com/projects/acura_timeline/images/numbers_wht.png'); 
+	background-position-y: 0px;
+	background-repeat:no-repeat;
+	opacity:.65;
+	filter:alpha(opacity=75);
+}
+
+#digit2, #digit3, #digit4
+{
+	margin-left: -66px;	
+}
+
+#clear
+{
+	clear: both;	
+}
+
+/* ==========
+YEAR CONTENT
+========== */
+#yearContent1Container,
+#yearContent2Container
+{
+	position: absolute;
+	z-index: 10;
+	border: 0px solid #0F0;
+}
+
+#yearContent1Container .yearHeader1
+{
+	position:relative;
+	font-weight:bold;	
+	
+	font-family: 'Maven+Pro', sans-serif;
+	font-size: 20px;
+	color: #cc3300;
+	margin-bottom: 5px;
+	line-height: 20px;
+}
+
+#yearContent2Container .yearHeader2
+{
+	position:relative;
+	font-weight:bold;	
+	font-family: 'Maven+Pro', sans-serif; /* 'Pathway Gothic One' */
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 5px;
+	line-height: 20px;
+}
+
+#yearContent1Container .yearContent1,
+#yearContent2Container .yearContent2
+{
+	position:absolute;
+	width: 250px;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	color:#fff;
+	border: 0px solid #F00;
+	line-height: 20px;
+}
+
+.contentDark
+{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	color:#333;
+	border: 0px solid #F00;
+	line-height: 20px;
+}
+
+/* ==========
+ARROW NAV
+========== */
+#arrowNav
+{
+	position:absolute;
+	left: 840px;
+	top: 437px;
+	color:#fff;
+	
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#arrowNav div
+{
+	float: left;
+	color:#fff;
+	margin-left: 18px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#arrowN:hover,
+#arrowP:hover
+{
+	cursor: pointer;	
+}
+
+.yearContent
+{
+	display:none;	
+}
