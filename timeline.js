@@ -196,7 +196,7 @@
 		
 		//
 		var fadeSpeed = 300;
-		var imgPath = 'https://www.primesync.net/img2/' + yearID + '.jpg';
+		var imgPath = 'https://razaci.github.io/timeline//img2/' + yearID + '.jpg';
 		
 		//
 		TweenMax.to($yearItem, .5, {color: 0xFFFFFF});
